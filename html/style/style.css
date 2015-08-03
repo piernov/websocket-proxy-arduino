@@ -1,0 +1,43 @@
+body {
+        padding:4em;
+	padding-top:2em;
+        height: 100%;
+}
+.console {
+        width:40%;
+	height: 100%;
+}
+.console-content{
+	min-height:2em;
+	max-height:80%;
+	overflow:auto;
+        border: 1px solid #FF69B4;
+        border-radius: 1em;
+}
+.console-log{	
+	width: 40%;
+	float:right;
+	margin-right: 13%;
+        border: 1px solid #FF69B4;
+	overflow:auto;
+	padding:0.5em;
+        border-radius: 1em;
+
+}
+.console-form input[name="console-command"]{
+        border: 1px solid #FF69B4;
+        border-radius: 1em;
+	width:80%;
+	margin-left:2%;
+	height:1.6em;
+	padding-left:1em
+}
+.console-form button{
+	margin-top:0.8%;
+	margin-right:2%;
+        height:2em;
+	width:12%;
+	float:right;
+	border: 1px solid #FF69B4;
+	border-radius: 1em;
+}
